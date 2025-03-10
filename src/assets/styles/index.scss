@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  //text-decoration: none;
+  //list-style: none;
+  font-family: 'MuseoSans', sans-serif !important;
+}
+
+.custom-toast> :first-child {
+  margin-top: 50px;
+}
+
+.header-icon {
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+}
+
+.button-extra {
+  padding: 0px 36px 0px 36px !important;
+}
+
+// comprime el texto si es necesario
+.text-wrap {
+  word-break: break-word;
+}
+
+.v-btn__content,
+.text-no-style {
+  text-transform: none !important;
+  letter-spacing: normal !important;
+  font-weight: 600;
+  line-height: 25px;
+  font-size: 0.80rem;
+}
+
+// .v-btn--icon, // problemas en iconos desactivados
+.v-icon {
+  opacity: 1 !important;
+}
+
+.v-data-table__thead {
+  color: #fff !important;
+  background-color: #1c1e4d !important;
+}
+
+.v-data-table-footer{
+  display: flex;
+  justify-content: center;
+}
+
+.title-modal {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 38px;
+  text-align: center;
+}
+
+.subtitle-modal {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+
+.title-list-view {
+  font-size: 2.3rem;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.v-table {
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin-bottom: 1.8rem;
+}
